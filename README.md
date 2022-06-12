@@ -16,7 +16,7 @@ const fetch = require('node-fetch');
 })();
 ```
 
-<img src="https://cdn.discordapp.com/attachments/908310690597589011/984094612224360468/unknown.png" />
+<img src="https://cdn.discordapp.com/attachments/926599671932149770/985514923314536448/unknown.png" />
 
 <p>
   You will receive a JSON response with several values: <code>error</code> which is <code>false</code> if there is none, or a string if there is one, <code>serial</code> which contains the serial number pre-cut not to exceed 14 characters, <code>web_result</code> which contains the link to the site with the serial number, <code>status</code> which can be <code>unpatched</code>, <code>canbepatched</code>, <code>patched</code> or <code>unknown</code> depending on the serial number and <code>type</code> which is <code>false</code> if the Nintendo Switch is neither OLED nor Mariko, otherwise it returns <code>oled</code> or <code>mariko</code>.
